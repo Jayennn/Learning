@@ -12,7 +12,7 @@ var twoSum = function(nums, target) {
 
     for ( let i = 0; i<= nums.length; i++) {
         const x = target - nums[i];
-        console.log(target - nums[i],(target, nums[i]))
+
         if (numsMap.has(x)) {
             return [numsMap.get(x), i]
         }
